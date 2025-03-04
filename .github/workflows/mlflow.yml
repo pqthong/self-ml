@@ -26,4 +26,4 @@ jobs:
     - name: Run Model Training and Log to MLflow
       env:
         MLFLOW_TRACKING_URI: "http://YOUR_MLFLOW_IP:30500"
-      run: python train.py
+      run: python src/train.py
